@@ -29,6 +29,8 @@ df.iloc[1368]
 
 군_list = [i for i in df_region.dropna(subset = [1])[1]]
 
+#hi
+
 
 
 
