@@ -61,7 +61,9 @@ def drawbar_top10(dic): #상위 10개 값만 차트로 출력
 
     
 
-final_dict = descending_order(count_dict(sigun_list, sell_list)
+final_dict = descending_order(count_dict(sigun_list, sell_list))
+
+del final_dict['서울특별시']                              
 
 drawbar_top10(final_dict)
 
